@@ -1,0 +1,141 @@
+@import "chrome://resources/css/chrome_style.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #001e4d;
+}
+.app {
+  background-color: #fff;
+  width: 905;
+  max-width: 600px;
+  margin: 50px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+.app h1 {
+  font-size: 25px;
+  font-weight: 600;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
+}
+.quiz {
+  padding: 20px 0;
+}
+.quiz h2 {
+  font-size: 18px;
+  color: #001e4d;
+  font-weight: 600;
+}
+.btn {
+  background-color: #fff;
+  color: #222;
+  font-weight: 500;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #222;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover:not([disabled]) {
+  background-color: #222;
+  color: #fff;
+}
+.btn:disabled {
+  cursor: no-drop;
+}
+#next-btn {
+  background-color: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  padding: 10px;
+  cursor: pointer;
+  border: 0;
+  margin: 20px auto 0;
+  border-radius: 5px;
+  /* display: none; */
+}
+#next-btn:hover {
+  background-color: #062d6d;
+}
+
+.correct {
+  background-color: aqua;
+}
+.incorrect {
+  background-color: rgb(160, 77, 77);
+}
+.app {
+  display: none;
+}
+.start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+#start-quiz {
+  padding: 9px 17px;
+  color: #ffffff;
+  font-size: 16px;
+  box-shadow: 0px 0px 8px #fff;
+  background-color: #062d6d;
+  border: none;
+  border-radius: 4px;
+}
+#start-quiz:hover {
+  cursor: pointer;
+  color: #062d6d;
+  background-color: #fff;
+  transform: scale(1.1);
+  transition: all ease 0.3s;
+}
+
+.popup-container {
+  border-radius: 4px;
+  width: 30%;
+  margin:auto;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #929191;
+  padding: 0px 50px;
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.4s ease;
+  position: absolute;
+  top: 10px;
+  left: 480px;
+}
+.popup-container p {
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: 100;
+  color: #062d6d;
+}
+#popup-btn {
+  width: 100%;
+  height: 32px;
+  border: 1px solid #062d6d;
+  margin: 0px 20px;
+  border-radius: 4px;
+}
+#popup-btn:hover {
+  color: #fff;
+  background-color: #062d6d;
+  transition: 0.4s ease;
+  border: 1px solid;
+}
+.active{
+    opacity: 1;
+    transform: scale(1);
+}
