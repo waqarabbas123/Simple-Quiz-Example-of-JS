@@ -101,7 +101,7 @@ body {
 .popup-container {
   border-radius: 4px;
   width: 30%;
-  margin:auto;
+  margin: auto;
   height: 20vh;
   display: flex;
   flex-direction: column;
@@ -135,7 +135,24 @@ body {
   transition: 0.4s ease;
   border: 1px solid;
 }
-.active{
-    opacity: 1;
-    transform: scale(1);
+.active {
+  opacity: 1;
+  transform: scale(1);
+}
+#congulate-winner {
+  display: none;
+  opacity: 0;
+  transition: all ease 0.4s;
+  position: absolute;
+  top: 104px;
+  left: 600px;
+}
+
+#congulate-loser {
+  display: none;
+  opacity: 0;
+  transition: all ease 0.4s;
+  position: absolute;
+  top: 114px;
+  left: 600px;
 }

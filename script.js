@@ -142,12 +142,31 @@ function selectAnswer(abc) {
   nextButton.style.display = "block";
 }
 //last part-----
+let loser = document.getElementById("congulate-loser")
+let winner = document.getElementById("congulate-winner")
+
+function congulate(){
+  loser.style.opacity = "0"
+  loser.style.display = "none"
+  winner.style.opacity = "0"
+  winner.style.display = "none"
+}
 function showScore() {
   resetState();
   questionElement.innerHTML = `you marks ${score} out of ${questions.length}`;
   nextButton.innerHTML = "Play Again";
   nextButton.style.display = "block";
+  if(score >= 3){
+    winner.style.opacity = "1"
+    winner.style.display = "block"
+  }else{
+    loser.style.opacity = "1"
+    loser.style.display = "block"
+  }
+  setTimeout(congulate,2000)
 }
+
+
 //---5th part---
 function handleNextButton() {
   currentQuestionIndex++;
