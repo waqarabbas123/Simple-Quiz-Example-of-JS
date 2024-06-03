@@ -1,4 +1,4 @@
-Using the logic of JavaScript i can make a simple  quiz .
-Using html for structure , css for style and js for logic .
+Using the logic of javascript i can make a simple quiz .
+with a beautiful style with css and adding style form bootstrap.
 Mostly focus on js beacuse use the logic of javascript  in it .
 
