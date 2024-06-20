@@ -1,3 +1,4 @@
 #__Simple Quiz
 
-using the concept of javascript i can make a project quiz game.
+Using the concept of javascript i can make a simple quiz example .
+in this project mostly focus on javascript.
