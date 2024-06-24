@@ -1,4 +1,4 @@
 #__Simple Quiz
 
-Using the concept of javascript i can make a simple quiz example .
-in this project mostly focus on javascript.
+Using the logic of javascript i can make simple quiz .
+mostly focus on javascript logic.
