@@ -1,4 +1,4 @@
 #__Simple Quiz
 
-Using the logic of javascript we make a simple project.
-like that :  simple calculator , tic-tac-toe , to-do-list etc
+Using the logic of javascript i can make a simple project quiz game .
+Mostly i can use the logic of javascript .
