@@ -1,4 +1,3 @@
 #__Simple Quiz
-
-Using the logic of javascript i can make a simple project which is quiz game
-Mostly we can focus on javascript .
+using the logic of javascipt i can make a simple project quiz game .
+mostly we can foucs in the logic of javascript .
