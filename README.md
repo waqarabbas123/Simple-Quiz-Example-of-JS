@@ -1,2 +1,2 @@
-#__Simple Quiz
-Using the logic of javascipt i can make a simple project quiz game , mostly we can foucs in the logic of javascript.
+#__Simple Quiz 
+Using the logic of javascript i can make a simple example .
