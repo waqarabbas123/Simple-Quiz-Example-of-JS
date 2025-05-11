@@ -186,3 +186,6 @@ nextButton.addEventListener("click", () => {
 });
 
 startQuiz();
+
+let gamestart = "game is ready ";
+console.log(gamestart);
